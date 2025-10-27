@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+.env
+*.log
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Test/coverage
+coverage/
+
+# Build
+*.tsbuildinfo
+
+# OS
+Thumbs.db
