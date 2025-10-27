@@ -1,4 +1,4 @@
-# StatusFlow (anteriormente http-exception-kit)
+# StatusFlow (anteriormente status-flow)
 
 # StatusFlow
 
@@ -11,7 +11,7 @@ Librería para respuestas HTTP estándar, bilingüe y personalizables en Node.js
 1. **Clona el repositorio y entra a la carpeta de la librería:**
     ```bash
     git clone <url-del-repo>
-    cd @libraries/http-exception-kit
+    cd @libraries/status-flow
     ```
 2. **Instala las dependencias:**
     ```bash
@@ -68,7 +68,7 @@ npm install status-flow
 
 # Instalar localmente durante desarrollo
 # desde la raíz del repo:
-# cd /ruta/al/repo/@libraries/http-exception-kit
+# cd /ruta/al/repo/@libraries/status-flow
 # pnpm install
 # pnpm run build
 # pnpm pack  # genera un tarball que puedes instalar en otro proyecto con `pnpm add ./status-flow-0.1.0.tgz`
@@ -81,7 +81,7 @@ npm install status-flow
 ### 1. Importa y usa StatusFlow en tu endpoint
 
 ```ts
-import { StatusFlow, StatusFlowCodes } from 'http-exception-kit';
+import { StatusFlow, StatusFlowCodes } from 'status-flow';
 
 // Ejemplo de respuesta exitosa
 app.get('/saludo', (req, res) => {
@@ -106,7 +106,7 @@ app.get('/error', (req, res, next) => {
 ### 2. Agrega el middleware para respuestas uniformes
 
 ```ts
-import { statusFlowMiddleware } from 'http-exception-kit';
+import { statusFlowMiddleware } from 'status-flow';
 
 app.use(statusFlowMiddleware); // Siempre al final, después de las rutas
 ```
@@ -149,7 +149,7 @@ Middleware Express para respuestas de error uniformes. Si el error tiene `code`,
 
 ```ts
 import express from 'express';
-import { StatusFlow, StatusFlowCodes, statusFlowMiddleware } from 'http-exception-kit';
+import { StatusFlow, StatusFlowCodes, statusFlowMiddleware } from 'status-flow';
 
 const app = express();
 
@@ -202,7 +202,7 @@ Librería para manejo profesional de errores HTTP en APIs Node.js/Express.
 ## Instalación
 
 ```bash
-pnpm add http-exception-kit
+pnpm add status-flow
 ```
 
 ---
@@ -214,7 +214,7 @@ pnpm add http-exception-kit
 Importa y lanza excepciones en tus controladores:
 
 ```ts
-import { BadRequestException, NotFoundException } from 'http-exception-kit';
+import { BadRequestException, NotFoundException } from 'status-flow';
 
 app.get('/usuario/:id', (req, res, next) => {
     if (!req.params.id) {
@@ -232,7 +232,7 @@ app.get('/usuario/:id', (req, res, next) => {
 Usa la utilidad para respuestas consistentes:
 
 ```ts
-import { createSuccessResponse } from 'http-exception-kit';
+import { createSuccessResponse } from 'status-flow';
 
 app.get('/usuario/:id', (req, res) => {
     res.json(createSuccessResponse({ id: 1, nombre: 'Juan' }, 'Usuario encontrado'));
@@ -244,7 +244,7 @@ app.get('/usuario/:id', (req, res) => {
 Agrega el middleware al final de tu app Express:
 
 ```ts
-import { httpErrorMiddleware } from 'http-exception-kit';
+import { httpErrorMiddleware } from 'status-flow';
 
 app.use(httpErrorMiddleware);
 ```
@@ -255,7 +255,7 @@ Este middleware detecta excepciones de la librería y responde con JSON uniforme
 
 ```ts
 import express from 'express';
-import { BadRequestException, NotFoundException, createSuccessResponse, httpErrorMiddleware } from 'http-exception-kit';
+import { BadRequestException, NotFoundException, createSuccessResponse, httpErrorMiddleware } from 'status-flow';
 
 const app = express();
 
@@ -281,7 +281,7 @@ app.listen(3000);
 ## Uso básico
 
 ```ts
-import { BadRequestException } from 'http-exception-kit';
+import { BadRequestException } from 'status-flow';
 
 app.get('/test', (req, res, next) => {
     throw new BadRequestException('Parámetro inválido');
@@ -292,7 +292,7 @@ app.get('/test', (req, res, next) => {
 
 ```ts
 import express from 'express';
-import { BadRequestException, httpErrorMiddleware, createSuccessResponse } from 'http-exception-kit';
+import { BadRequestException, httpErrorMiddleware, createSuccessResponse } from 'status-flow';
 
 const app = express();
 
