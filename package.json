@@ -1,0 +1,65 @@
+{
+    "name": "status-flow",
+    "version": "0.1.0",
+    "author": "Alfredo Fonseca H. <alfredfonher@gmail.com> (aprog93)",
+    "description": "Librería para manejo de errores HTTP personalizados y respuestas uniformes en APIs Node.js.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint src test --ext .ts",
+        "format": "prettier --write .",
+        "test": "vitest"
+    },
+    "vitest": {
+        "include": [
+            "test/**/*.{test,spec}.{ts,js}"
+        ]
+    },
+    "keywords": [
+        "http",
+        "error",
+        "exception",
+        "express",
+        "api",
+        "nodejs"
+    ],
+    "license": "MIT",
+    "peerDependencies": {
+        "express": "^4 || ^5"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.5",
+        "@types/jest": "^30.0.0",
+        "@types/mocha": "^10.0.10",
+        "@typescript-eslint/eslint-plugin": "latest",
+        "@typescript-eslint/parser": "latest",
+        "eslint": "latest",
+        "eslint-config-prettier": "^10.1.8",
+        "jiti": "^2.6.1",
+        "prettier": "latest",
+        "typescript": "latest",
+        "vitest": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aprog93/status-flow.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aprog93/status-flow/issues"
+    },
+    "homepage": "https://github.com/aprog93/status-flow#readme",
+    "publishConfig": {
+        "access": "public"
+    }
+}

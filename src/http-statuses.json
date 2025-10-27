@@ -1,0 +1,2144 @@
+{
+    "100": {
+        "code": 100,
+        "name": {
+            "en": "Continue",
+            "es": "Continuar"
+        },
+        "category": {
+            "en": "Informational",
+            "es": "Informativo"
+        },
+        "description": {
+            "en": "Standard HTTP informational code 100.",
+            "es": "Código HTTP estándar de informativo 100."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 100 - Continue",
+                "code": 100
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 100 - Continuar",
+                "code": 100
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "101": {
+        "code": 101,
+        "name": {
+            "en": "Switching Protocols",
+            "es": "Cambiando Protocolos"
+        },
+        "category": {
+            "en": "Informational",
+            "es": "Informativo"
+        },
+        "description": {
+            "en": "Standard HTTP informational code 101.",
+            "es": "Código HTTP estándar de informativo 101."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 101 - Switching Protocols",
+                "code": 101
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 101 - Cambiando Protocolos",
+                "code": 101
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "102": {
+        "code": 102,
+        "name": {
+            "en": "Processing",
+            "es": "Procesando"
+        },
+        "category": {
+            "en": "Informational",
+            "es": "Informativo"
+        },
+        "description": {
+            "en": "Standard HTTP informational code 102.",
+            "es": "Código HTTP estándar de informativo 102."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 102 - Processing",
+                "code": 102
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 102 - Procesando",
+                "code": 102
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "103": {
+        "code": 103,
+        "name": {
+            "en": "Early Hints",
+            "es": "Pistas Iniciales"
+        },
+        "category": {
+            "en": "Informational",
+            "es": "Informativo"
+        },
+        "description": {
+            "en": "Standard HTTP informational code 103.",
+            "es": "Código HTTP estándar de informativo 103."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 103 - Early Hints",
+                "code": 103
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 103 - Pistas Iniciales",
+                "code": 103
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "200": {
+        "code": 200,
+        "name": {
+            "en": "OK",
+            "es": "Correcto"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 200.",
+            "es": "Código HTTP estándar de éxito 200."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 200 - OK",
+                "code": 200
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 200 - Correcto",
+                "code": 200
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "201": {
+        "code": 201,
+        "name": {
+            "en": "Created",
+            "es": "Creado"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 201.",
+            "es": "Código HTTP estándar de éxito 201."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 201 - Created",
+                "code": 201
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 201 - Creado",
+                "code": 201
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "202": {
+        "code": 202,
+        "name": {
+            "en": "Accepted",
+            "es": "Aceptada"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 202.",
+            "es": "Código HTTP estándar de éxito 202."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 202 - Accepted",
+                "code": 202
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 202 - Aceptada",
+                "code": 202
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "203": {
+        "code": 203,
+        "name": {
+            "en": "Non-Authoritative Information",
+            "es": "Información No Autoritativa"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 203.",
+            "es": "Código HTTP estándar de éxito 203."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 203 - Non-Authoritative Information",
+                "code": 203
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 203 - Información No Autoritativa",
+                "code": 203
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "204": {
+        "code": 204,
+        "name": {
+            "en": "No Content",
+            "es": "Sin Contenido"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 204.",
+            "es": "Código HTTP estándar de éxito 204."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 204 - No Content",
+                "code": 204
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 204 - Sin Contenido",
+                "code": 204
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "205": {
+        "code": 205,
+        "name": {
+            "en": "Reset Content",
+            "es": "Restablecer Contenido"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 205.",
+            "es": "Código HTTP estándar de éxito 205."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 205 - Reset Content",
+                "code": 205
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 205 - Restablecer Contenido",
+                "code": 205
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "206": {
+        "code": 206,
+        "name": {
+            "en": "Partial Content",
+            "es": "Contenido Parcial"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 206.",
+            "es": "Código HTTP estándar de éxito 206."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 206 - Partial Content",
+                "code": 206
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 206 - Contenido Parcial",
+                "code": 206
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "207": {
+        "code": 207,
+        "name": {
+            "en": "Multi-Status",
+            "es": "Múltiple Estado"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 207.",
+            "es": "Código HTTP estándar de éxito 207."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 207 - Multi-Status",
+                "code": 207
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 207 - Múltiple Estado",
+                "code": 207
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "208": {
+        "code": 208,
+        "name": {
+            "en": "Already Reported",
+            "es": "Ya Reportado"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 208.",
+            "es": "Código HTTP estándar de éxito 208."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 208 - Already Reported",
+                "code": 208
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 208 - Ya Reportado",
+                "code": 208
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "226": {
+        "code": 226,
+        "name": {
+            "en": "IM Used",
+            "es": "IM Usado"
+        },
+        "category": {
+            "en": "Success",
+            "es": "Éxito"
+        },
+        "description": {
+            "en": "Standard HTTP success code 226.",
+            "es": "Código HTTP estándar de éxito 226."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 226 - IM Used",
+                "code": 226
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 226 - IM Usado",
+                "code": 226
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "300": {
+        "code": 300,
+        "name": {
+            "en": "Multiple Choices",
+            "es": "Múltiples Opciones"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 300.",
+            "es": "Código HTTP estándar de redirección 300."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 300 - Multiple Choices",
+                "code": 300
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 300 - Múltiples Opciones",
+                "code": 300
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "301": {
+        "code": 301,
+        "name": {
+            "en": "Moved Permanently",
+            "es": "Movido Permanentemente"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 301.",
+            "es": "Código HTTP estándar de redirección 301."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 301 - Moved Permanently",
+                "code": 301
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 301 - Movido Permanentemente",
+                "code": 301
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "302": {
+        "code": 302,
+        "name": {
+            "en": "Found",
+            "es": "Encontrado"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 302.",
+            "es": "Código HTTP estándar de redirección 302."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 302 - Found",
+                "code": 302
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 302 - Encontrado",
+                "code": 302
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "303": {
+        "code": 303,
+        "name": {
+            "en": "See Other",
+            "es": "Ver Otro"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 303.",
+            "es": "Código HTTP estándar de redirección 303."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 303 - See Other",
+                "code": 303
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 303 - Ver Otro",
+                "code": 303
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "304": {
+        "code": 304,
+        "name": {
+            "en": "Not Modified",
+            "es": "No Modificado"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 304.",
+            "es": "Código HTTP estándar de redirección 304."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 304 - Not Modified",
+                "code": 304
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 304 - No Modificado",
+                "code": 304
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "305": {
+        "code": 305,
+        "name": {
+            "en": "Use Proxy",
+            "es": "Usar Proxy"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 305.",
+            "es": "Código HTTP estándar de redirección 305."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 305 - Use Proxy",
+                "code": 305
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 305 - Usar Proxy",
+                "code": 305
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "306": {
+        "code": 306,
+        "name": {
+            "en": "(Unused)",
+            "es": "(No Usado)"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 306.",
+            "es": "Código HTTP estándar de redirección 306."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 306 - (Unused)",
+                "code": 306
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 306 - (No Usado)",
+                "code": 306
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "307": {
+        "code": 307,
+        "name": {
+            "en": "Temporary Redirect",
+            "es": "Redirección Temporal"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 307.",
+            "es": "Código HTTP estándar de redirección 307."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 307 - Temporary Redirect",
+                "code": 307
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 307 - Redirección Temporal",
+                "code": 307
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "308": {
+        "code": 308,
+        "name": {
+            "en": "Permanent Redirect",
+            "es": "Redirección Permanente"
+        },
+        "category": {
+            "en": "Redirection",
+            "es": "Redirección"
+        },
+        "description": {
+            "en": "Standard HTTP redirection code 308.",
+            "es": "Código HTTP estándar de redirección 308."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": true,
+                "message": "HTTP 308 - Permanent Redirect",
+                "code": 308
+            },
+            "es": {
+                "success": true,
+                "message": "HTTP 308 - Redirección Permanente",
+                "code": 308
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "400": {
+        "code": 400,
+        "name": {
+            "en": "Bad Request",
+            "es": "Solicitud Incorrecta"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 400.",
+            "es": "Código HTTP estándar de error del cliente 400."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 400 - Bad Request",
+                "code": 400
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 400 - Solicitud Incorrecta",
+                "code": 400
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "401": {
+        "code": 401,
+        "name": {
+            "en": "Unauthorized",
+            "es": "No Autorizado"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 401.",
+            "es": "Código HTTP estándar de error del cliente 401."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 401 - Unauthorized",
+                "code": 401
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 401 - No Autorizado",
+                "code": 401
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "402": {
+        "code": 402,
+        "name": {
+            "en": "Payment Required",
+            "es": "Pago Requerido"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 402.",
+            "es": "Código HTTP estándar de error del cliente 402."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 402 - Payment Required",
+                "code": 402
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 402 - Pago Requerido",
+                "code": 402
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "403": {
+        "code": 403,
+        "name": {
+            "en": "Forbidden",
+            "es": "Prohibido"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 403.",
+            "es": "Código HTTP estándar de error del cliente 403."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 403 - Forbidden",
+                "code": 403
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 403 - Prohibido",
+                "code": 403
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "404": {
+        "code": 404,
+        "name": {
+            "en": "Not Found",
+            "es": "No Encontrado"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 404.",
+            "es": "Código HTTP estándar de error del cliente 404."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 404 - Not Found",
+                "code": 404
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 404 - No Encontrado",
+                "code": 404
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "405": {
+        "code": 405,
+        "name": {
+            "en": "Method Not Allowed",
+            "es": "Método No Permitido"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 405.",
+            "es": "Código HTTP estándar de error del cliente 405."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 405 - Method Not Allowed",
+                "code": 405
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 405 - Método No Permitido",
+                "code": 405
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "406": {
+        "code": 406,
+        "name": {
+            "en": "Not Acceptable",
+            "es": "No Aceptable"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 406.",
+            "es": "Código HTTP estándar de error del cliente 406."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 406 - Not Acceptable",
+                "code": 406
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 406 - No Aceptable",
+                "code": 406
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "407": {
+        "code": 407,
+        "name": {
+            "en": "Proxy Authentication Required",
+            "es": "Autenticación Proxy Requerida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 407.",
+            "es": "Código HTTP estándar de error del cliente 407."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 407 - Proxy Authentication Required",
+                "code": 407
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 407 - Autenticación Proxy Requerida",
+                "code": 407
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "408": {
+        "code": 408,
+        "name": {
+            "en": "Request Timeout",
+            "es": "Tiempo de Solicitud Agotado"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 408.",
+            "es": "Código HTTP estándar de error del cliente 408."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 408 - Request Timeout",
+                "code": 408
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 408 - Tiempo de Solicitud Agotado",
+                "code": 408
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "409": {
+        "code": 409,
+        "name": {
+            "en": "Conflict",
+            "es": "Conflicto"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 409.",
+            "es": "Código HTTP estándar de error del cliente 409."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 409 - Conflict",
+                "code": 409
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 409 - Conflicto",
+                "code": 409
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "410": {
+        "code": 410,
+        "name": {
+            "en": "Gone",
+            "es": "Eliminado"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 410.",
+            "es": "Código HTTP estándar de error del cliente 410."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 410 - Gone",
+                "code": 410
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 410 - Eliminado",
+                "code": 410
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "411": {
+        "code": 411,
+        "name": {
+            "en": "Length Required",
+            "es": "Longitud Requerida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 411.",
+            "es": "Código HTTP estándar de error del cliente 411."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 411 - Length Required",
+                "code": 411
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 411 - Longitud Requerida",
+                "code": 411
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "412": {
+        "code": 412,
+        "name": {
+            "en": "Precondition Failed",
+            "es": "Precondición Fallida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 412.",
+            "es": "Código HTTP estándar de error del cliente 412."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 412 - Precondition Failed",
+                "code": 412
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 412 - Precondición Fallida",
+                "code": 412
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "413": {
+        "code": 413,
+        "name": {
+            "en": "Content Too Large",
+            "es": "Contenido Demasiado Grande"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 413.",
+            "es": "Código HTTP estándar de error del cliente 413."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 413 - Content Too Large",
+                "code": 413
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 413 - Contenido Demasiado Grande",
+                "code": 413
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "414": {
+        "code": 414,
+        "name": {
+            "en": "URI Too Long",
+            "es": "URI Demasiado Largo"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 414.",
+            "es": "Código HTTP estándar de error del cliente 414."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 414 - URI Too Long",
+                "code": 414
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 414 - URI Demasiado Largo",
+                "code": 414
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "415": {
+        "code": 415,
+        "name": {
+            "en": "Unsupported Media Type",
+            "es": "Tipo de Medio No Soportado"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 415.",
+            "es": "Código HTTP estándar de error del cliente 415."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 415 - Unsupported Media Type",
+                "code": 415
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 415 - Tipo de Medio No Soportado",
+                "code": 415
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "416": {
+        "code": 416,
+        "name": {
+            "en": "Range Not Satisfiable",
+            "es": "Rango No Satisfacible"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 416.",
+            "es": "Código HTTP estándar de error del cliente 416."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 416 - Range Not Satisfiable",
+                "code": 416
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 416 - Rango No Satisfacible",
+                "code": 416
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "417": {
+        "code": 417,
+        "name": {
+            "en": "Expectation Failed",
+            "es": "Expectativa Fallida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 417.",
+            "es": "Código HTTP estándar de error del cliente 417."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 417 - Expectation Failed",
+                "code": 417
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 417 - Expectativa Fallida",
+                "code": 417
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "418": {
+        "code": 418,
+        "name": {
+            "en": "(Unused)",
+            "es": "(No Usado)"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 418.",
+            "es": "Código HTTP estándar de error del cliente 418."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 418 - (Unused)",
+                "code": 418
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 418 - (No Usado)",
+                "code": 418
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "421": {
+        "code": 421,
+        "name": {
+            "en": "Misdirected Request",
+            "es": "Solicitud Mal Dirigida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 421.",
+            "es": "Código HTTP estándar de error del cliente 421."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 421 - Misdirected Request",
+                "code": 421
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 421 - Solicitud Mal Dirigida",
+                "code": 421
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "422": {
+        "code": 422,
+        "name": {
+            "en": "Unprocessable Content",
+            "es": "Contenido No Procesable"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 422.",
+            "es": "Código HTTP estándar de error del cliente 422."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 422 - Unprocessable Content",
+                "code": 422
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 422 - Contenido No Procesable",
+                "code": 422
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "423": {
+        "code": 423,
+        "name": {
+            "en": "Locked",
+            "es": "Bloqueado"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 423.",
+            "es": "Código HTTP estándar de error del cliente 423."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 423 - Locked",
+                "code": 423
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 423 - Bloqueado",
+                "code": 423
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "424": {
+        "code": 424,
+        "name": {
+            "en": "Failed Dependency",
+            "es": "Dependencia Fallida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 424.",
+            "es": "Código HTTP estándar de error del cliente 424."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 424 - Failed Dependency",
+                "code": 424
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 424 - Dependencia Fallida",
+                "code": 424
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "425": {
+        "code": 425,
+        "name": {
+            "en": "Too Early",
+            "es": "Demasiado Temprano"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 425.",
+            "es": "Código HTTP estándar de error del cliente 425."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 425 - Too Early",
+                "code": 425
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 425 - Demasiado Temprano",
+                "code": 425
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "426": {
+        "code": 426,
+        "name": {
+            "en": "Upgrade Required",
+            "es": "Actualización Requerida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 426.",
+            "es": "Código HTTP estándar de error del cliente 426."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 426 - Upgrade Required",
+                "code": 426
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 426 - Actualización Requerida",
+                "code": 426
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "428": {
+        "code": 428,
+        "name": {
+            "en": "Precondition Required",
+            "es": "Precondición Requerida"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 428.",
+            "es": "Código HTTP estándar de error del cliente 428."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 428 - Precondition Required",
+                "code": 428
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 428 - Precondición Requerida",
+                "code": 428
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "429": {
+        "code": 429,
+        "name": {
+            "en": "Too Many Requests",
+            "es": "Demasiadas Solicitudes"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 429.",
+            "es": "Código HTTP estándar de error del cliente 429."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 429 - Too Many Requests",
+                "code": 429
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 429 - Demasiadas Solicitudes",
+                "code": 429
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "431": {
+        "code": 431,
+        "name": {
+            "en": "Request Header Fields Too Large",
+            "es": "Encabezados Demasiado Grandes"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 431.",
+            "es": "Código HTTP estándar de error del cliente 431."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 431 - Request Header Fields Too Large",
+                "code": 431
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 431 - Encabezados Demasiado Grandes",
+                "code": 431
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "451": {
+        "code": 451,
+        "name": {
+            "en": "Unavailable For Legal Reasons",
+            "es": "No Disponible Por Razones Legales"
+        },
+        "category": {
+            "en": "Client Error",
+            "es": "Error del Cliente"
+        },
+        "description": {
+            "en": "Standard HTTP client error code 451.",
+            "es": "Código HTTP estándar de error del cliente 451."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 451 - Unavailable For Legal Reasons",
+                "code": 451
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 451 - No Disponible Por Razones Legales",
+                "code": 451
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "500": {
+        "code": 500,
+        "name": {
+            "en": "Internal Server Error",
+            "es": "Error Interno del Servidor"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 500.",
+            "es": "Código HTTP estándar de error del servidor 500."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 500 - Internal Server Error",
+                "code": 500
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 500 - Error Interno del Servidor",
+                "code": 500
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "501": {
+        "code": 501,
+        "name": {
+            "en": "Not Implemented",
+            "es": "No Implementado"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 501.",
+            "es": "Código HTTP estándar de error del servidor 501."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 501 - Not Implemented",
+                "code": 501
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 501 - No Implementado",
+                "code": 501
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "502": {
+        "code": 502,
+        "name": {
+            "en": "Bad Gateway",
+            "es": "Puerta de Enlace Incorrecta"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 502.",
+            "es": "Código HTTP estándar de error del servidor 502."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 502 - Bad Gateway",
+                "code": 502
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 502 - Puerta de Enlace Incorrecta",
+                "code": 502
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "503": {
+        "code": 503,
+        "name": {
+            "en": "Service Unavailable",
+            "es": "Servicio No Disponible"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 503.",
+            "es": "Código HTTP estándar de error del servidor 503."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 503 - Service Unavailable",
+                "code": 503
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 503 - Servicio No Disponible",
+                "code": 503
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "504": {
+        "code": 504,
+        "name": {
+            "en": "Gateway Timeout",
+            "es": "Tiempo de Puerta de Enlace Agotado"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 504.",
+            "es": "Código HTTP estándar de error del servidor 504."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 504 - Gateway Timeout",
+                "code": 504
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 504 - Tiempo de Puerta de Enlace Agotado",
+                "code": 504
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "505": {
+        "code": 505,
+        "name": {
+            "en": "HTTP Version Not Supported",
+            "es": "Versión HTTP No Soportada"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 505.",
+            "es": "Código HTTP estándar de error del servidor 505."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 505 - HTTP Version Not Supported",
+                "code": 505
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 505 - Versión HTTP No Soportada",
+                "code": 505
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "506": {
+        "code": 506,
+        "name": {
+            "en": "Variant Also Negotiates",
+            "es": "Variante También Negocia"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 506.",
+            "es": "Código HTTP estándar de error del servidor 506."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 506 - Variant Also Negotiates",
+                "code": 506
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 506 - Variante También Negocia",
+                "code": 506
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "507": {
+        "code": 507,
+        "name": {
+            "en": "Insufficient Storage",
+            "es": "Almacenamiento Insuficiente"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 507.",
+            "es": "Código HTTP estándar de error del servidor 507."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 507 - Insufficient Storage",
+                "code": 507
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 507 - Almacenamiento Insuficiente",
+                "code": 507
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "508": {
+        "code": 508,
+        "name": {
+            "en": "Loop Detected",
+            "es": "Bucle Detectado"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 508.",
+            "es": "Código HTTP estándar de error del servidor 508."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 508 - Loop Detected",
+                "code": 508
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 508 - Bucle Detectado",
+                "code": 508
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "510": {
+        "code": 510,
+        "name": {
+            "en": "Not Extended",
+            "es": "No Extendido"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 510.",
+            "es": "Código HTTP estándar de error del servidor 510."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 510 - Not Extended",
+                "code": 510
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 510 - No Extendido",
+                "code": 510
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    },
+    "511": {
+        "code": 511,
+        "name": {
+            "en": "Network Authentication Required",
+            "es": "Autenticación de Red Requerida"
+        },
+        "category": {
+            "en": "Server Error",
+            "es": "Error del Servidor"
+        },
+        "description": {
+            "en": "Standard HTTP server error code 511.",
+            "es": "Código HTTP estándar de error del servidor 511."
+        },
+        "possibleCauses": {
+            "en": ["General cause depending on context."],
+            "es": ["Causa general dependiendo del contexto."]
+        },
+        "defaultResponse": {
+            "en": {
+                "success": false,
+                "message": "HTTP 511 - Network Authentication Required",
+                "code": 511
+            },
+            "es": {
+                "success": false,
+                "message": "HTTP 511 - Autenticación de Red Requerida",
+                "code": 511
+            }
+        },
+        "userCustomizable": {
+            "extra": {}
+        }
+    }
+}
